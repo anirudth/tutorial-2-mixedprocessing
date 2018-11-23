@@ -1,0 +1,37 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVLibrary343/build/intermediates/packaged_res/debug/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "24",
+                        "endOffsets": "361"
+                    }
+                },
+                {
+                    "source": "/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "366",
+                        "endColumns": "60",
+                        "endOffsets": "422"
+                    }
+                }
+            ]
+        }
+    ]
+}

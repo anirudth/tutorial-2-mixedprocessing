@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/Android.mk",
+    "/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/home/nambirajan/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/Android.mk NDK_APPLICATION_MK\u003d/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "mixed_sample-release-armeabi-v7a": {
+      "buildCommand": "/home/nambirajan/Android/Sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/Android.mk NDK_APPLICATION_MK\u003d/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/ndkBuild/release/lib /home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libmixed_sample.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "mixed_sample",
+      "files": [
+        {
+          "src": "/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni/jni_part.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-exceptions -fno-rtti -gcc-toolchain /home/nambirajan/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64 -fpic -march\u003darmv7-a -mfloat-abi\u003dsoftfp -mfpu\u003dvfpv3-d16 -mthumb -Oz -DNDEBUG -I\"/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/sdk/native/jni/include/opencv\" -I\"/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/sdk/native/jni/include\" -I/home/nambirajan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/home/nambirajan/Android/Sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/home/nambirajan/Android/Sdk/ndk-bundle/sources/android/support/include -I/home/nambirajan/Downloads/Softwares/OpenCV-android-sdk/samples/tutorial-2-mixedprocessing/jni -std\u003dc++11 -frtti -fexceptions -DANDROID -fPIC -DANDROID -fsigned-char -Wa,--noexecstack -Wformat -Werror\u003dformat-security --sysroot /home/nambirajan/Android/Sdk/ndk-bundle/sysroot -isystem /home/nambirajan/Android/Sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi"
+        }
+      ],
+      "output": "/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libmixed_sample.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/home/nambirajan/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

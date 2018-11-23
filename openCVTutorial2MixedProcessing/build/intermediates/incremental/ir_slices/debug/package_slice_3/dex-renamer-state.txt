@@ -1,0 +1,4 @@
+#Fri Nov 23 17:28:58 IST 2018
+base.0=/home/nambirajan/Documents/home/nambirajan/Documents/tutorial-2-mixedprocessing/openCVTutorial2MixedProcessing/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex
